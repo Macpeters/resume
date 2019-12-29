@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Tab from './tab';
+import Tab from '../tab.js';
+import './tabs.css';
 
 export default class Tabs extends React.Component {
   static propTypes = {

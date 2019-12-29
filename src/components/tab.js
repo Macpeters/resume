@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './tabs/tabs.css';
 
 export default class Tab extends React.Component {
   static propTypes = {

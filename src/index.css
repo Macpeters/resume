@@ -12,20 +12,21 @@ code {
     monospace;
 }
 
-.tab-list {
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
+.organization {
+  font-weight: 500;
+  padding: 0 10px 0 10px;
 }
 
-.tab-list-item {
-  display: inline-block;
-  list-style: none;
-  margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
+.time-period {
+  font-style: italic;
+  font-weight: 300;
 }
 
-.tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+.job-title {
+  font-weight: 800;
+  padding: 0 10px 0 10px;
+}
+
+article {
+  padding: 5px;
 }
