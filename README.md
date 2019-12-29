@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using Tabs tutorial: https://alligator.io/react/tabs-component/
 
 ## Available Scripts
 
