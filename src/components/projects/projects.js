@@ -25,7 +25,7 @@ export default class Projects extends React.Component {
         <div>
           <article id="cactus-log">
             <div>
-              <img src={cactusLog} alt="screenshot of cactus log" />
+              <img className="project-image" src={cactusLog} alt="screenshot of cactus log" />
               <div className="summary">
                 <h3>Cactus Log</h3>
                 <div>This is a pet project I created in order to track my cactus collection</div>
@@ -54,7 +54,7 @@ export default class Projects extends React.Component {
           <article id="personal-site">
             <h3>Personal Site</h3>
             <div>
-              <img src={personalSite} alt="screenshot of personal site" />
+              <img className="project-image" src={personalSite} alt="screenshot of personal site" />
               <div className="summary">
                 <div >This is my main website - from there you can acess all my dev and art projects</div>
                 <div><a
@@ -80,7 +80,7 @@ export default class Projects extends React.Component {
           <article id="ravemau5">
             <h3>RaveMau5</h3>
             <div>
-              <img src={raveMau5} alt="screenshot of RaveMau5" />
+              <img className="project-image" src={raveMau5} alt="screenshot of RaveMau5" />
               <div className="summary">
                 <div>A platformer game built in GMS</div>
                 <div><a
@@ -108,7 +108,7 @@ export default class Projects extends React.Component {
           <article id="cell-sim">
             <h3>Cell Sim</h3>
             <div>
-              <img src={cellSim} alt="screenshot of Cell Sim" />
+              <img className="project-image" src={cellSim} alt="screenshot of Cell Sim" />
               <div className="summary">
                 <div>A Simulation Game built in GMS</div>
                 <div><a
@@ -134,7 +134,7 @@ export default class Projects extends React.Component {
           <article id="key-to-keys">
             <h3>Key To Keys</h3>
             <div>
-              <img src={keyToKeys} alt="screenshot of Key To Keys" />
+              <img className="project-image" src={keyToKeys} alt="screenshot of Key To Keys" />
               <div className="summary">
                 <div>An Educational game for learning key signatures built in GMS over a weekend at ToJam</div>
                 <div><a
@@ -162,7 +162,7 @@ export default class Projects extends React.Component {
           <article id="skate-invasion">
             <h3>Skate Invasion</h3>
             <div>
-              {/* <img src="" alt="screenshot of Skate Invasion" /> */}
+              {/* <img src="" className="project-image"  alt="screenshot of Skate Invasion" /> */}
               <div className="summary">
                 <div>A Game built in GMS to use Pathfinding</div>
                 <div></div>
