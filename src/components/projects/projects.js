@@ -1,5 +1,10 @@
 import React from 'react';
 import './projects.css';
+import cactusLog from '../../images/Projects/cactusLog.png';
+import cellSim from '../../images/Projects/cellSim.png';
+import keyToKeys from '../../images/Projects/keyToKeys.png';
+import personalSite from '../../images/Projects/personalSite.png';
+import raveMau5 from '../../images/Projects/raveMau5.png';
 
 export default class Projects extends React.Component {
   render() {
@@ -19,10 +24,17 @@ export default class Projects extends React.Component {
 
         <div>
           <article id="cactus-log">
-            <h3>Cactus Log</h3>
             <div>
-              <div className="summary">This is a pet project I created in order to track my cactus collection</div>
-              <div className="summary"><a href="https://cactus-bartik-2ca70d.netlify.com/" target="_blank">View Cactus Log on Netlify</a></div>
+              <img src={cactusLog} alt="screenshot of cactus log" />
+              <div className="summary">
+                <h3>Cactus Log</h3>
+                <div>This is a pet project I created in order to track my cactus collection</div>
+                <div>
+                  <a href="https://cactus-bartik-2ca70d.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">View Cactus Log on Netlify</a></div>
+              </div>
+            
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 I built this as a VueJS/Nuxt app using json files to store static data. A component for each species
@@ -42,8 +54,15 @@ export default class Projects extends React.Component {
           <article id="personal-site">
             <h3>Personal Site</h3>
             <div>
-              <div className="summary">This is my main website - from there you can acess all my dev and art projects</div>
-              <div className="summary"><a href="http://www.macpeters.com" target="_blank">www.macpeters.com</a></div>
+              <img src={personalSite} alt="screenshot of personal site" />
+              <div className="summary">
+                <div >This is my main website - from there you can acess all my dev and art projects</div>
+                <div><a
+                  href="http://www.macpeters.com"
+                  target="_blank"
+                  rel="noopener noreferrer">www.macpeters.com</a></div>
+              </div>
+              
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 This as a VueJS/Nuxt app
@@ -61,8 +80,15 @@ export default class Projects extends React.Component {
           <article id="ravemau5">
             <h3>RaveMau5</h3>
             <div>
-              <div className="summary">A platformer game built in GMS</div>
-              <div className="summary"><a href="https://ravemau5.netlify.com/" target="_blank">Play RaveMau5</a></div>
+              <img src={raveMau5} alt="screenshot of RaveMau5" />
+              <div className="summary">
+                <div>A platformer game built in GMS</div>
+                <div><a
+                  href="https://ravemau5.netlify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer">Play RaveMau5</a></div>
+              </div>
+              
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 I built this using GameMaker 1, then upgraded it to run with GameMaker 2.  The playable version is
@@ -82,8 +108,15 @@ export default class Projects extends React.Component {
           <article id="cell-sim">
             <h3>Cell Sim</h3>
             <div>
-              <div className="summary">A Simulation Game built in GMS</div>
-              <div className="summary"><a href="https://macpeters.itch.io/cell-sim" target="_blank">Play Cell Sim on Itch.io (press P to start/stop)</a></div>
+              <img src={cellSim} alt="screenshot of Cell Sim" />
+              <div className="summary">
+                <div>A Simulation Game built in GMS</div>
+                <div><a
+                  href="https://macpeters.itch.io/cell-sim"
+                  target="_blank"
+                  rel="noopener noreferrer">Play Cell Sim on Itch.io (press P to start/stop)</a></div>
+              </div>
+              
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 This was built in GameMaker 2.  
@@ -101,8 +134,15 @@ export default class Projects extends React.Component {
           <article id="key-to-keys">
             <h3>Key To Keys</h3>
             <div>
-              <div className="summary">An Educational game for learning key signatures built in GMS over a weekend at ToJam</div>
-              <div className="summary"><a href="https://macpeters.itch.io/the-key-to-keys" target="_blank">Play Key To Keys on Itch.io</a></div>
+              <img src={keyToKeys} alt="screenshot of Key To Keys" />
+              <div className="summary">
+                <div>An Educational game for learning key signatures built in GMS over a weekend at ToJam</div>
+                <div><a
+                  href="https://macpeters.itch.io/the-key-to-keys"
+                  target="_blank"
+                  rel="noopener noreferrer">Play Key To Keys on Itch.io</a></div>
+              </div>
+              
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 This was built in GameMaker 1
@@ -122,8 +162,12 @@ export default class Projects extends React.Component {
           <article id="skate-invasion">
             <h3>Skate Invasion</h3>
             <div>
-              <div className="summary">A Game built in GMS to use Pathfinding</div>
-              <div className="summary"></div>
+              {/* <img src="" alt="screenshot of Skate Invasion" /> */}
+              <div className="summary">
+                <div>A Game built in GMS to use Pathfinding</div>
+                <div></div>
+              </div>
+              
               <div className="tech-used">
                 <h4>Technology Used</h4>
                 This was built in GameMaker 1 - I followed a tutorial on pathfinding, but it didn't work, even 

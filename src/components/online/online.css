@@ -1,0 +1,31 @@
+.social-button {
+  display: inline-block;
+  width: 40%;
+  padding: 10px;
+  border-color: black;
+  border-width: thin;
+  border-style: double;
+  margin: 10px;
+}
+
+img {
+  text-align: center;
+  height: 50px;
+  width: auto;
+  border-color: lightgrey;
+  border-width: thin;
+  border-style: solid
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.link-title {
+  font-weight: 600;
+  padding: 20px;
+}

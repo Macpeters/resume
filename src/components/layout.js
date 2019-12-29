@@ -2,9 +2,10 @@ import React from 'react';
 
 import Tabs from './tabs/tabs.js';
 
+import Education from './education/education.js';
 import Header from './header/header.js';
 import Highlights from './highlights.js';
-import Education from './education/education.js';
+import Online from './online/online.js';
 import Projects from './projects/projects.js';
 import WorkHistory from './workHistory/workHistory.js';
 
@@ -28,7 +29,7 @@ export default class Layout extends React.Component {
               <Projects />
             </div>
             <div label="Online">
-              List of Online Accounts
+              <Online />
             </div>
           </Tabs>
         </div>    
