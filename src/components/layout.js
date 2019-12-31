@@ -16,19 +16,19 @@ export default class Layout extends React.Component {
         <Header />
         <div>
           <Tabs>
-            <div label="Highlights">
+            <div label={{ text: "Highlights", tabClass: "highlights" }}>
               <Highlights />
             </div>
-            <div label="Work History">
+            <div label={{ text: "Work History", tabClass: "work-history" }}>
               <WorkHistory />
             </div>
-            <div label="Education">
+            <div label={{ text: "Education", tabClass: "education" }}>
               <Education />
             </div>
-            <div label="Projects">
+            <div label={{ text: "Projects", tabClass: "projects" }}>
               <Projects />
             </div>
-            <div label="Online">
+            <div label={{ text: "Online", tabClass: "online" }}>
               <Online />
             </div>
           </Tabs>

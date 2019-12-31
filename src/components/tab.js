@@ -29,8 +29,8 @@ export default class Tab extends React.Component {
     }
 
     return (
-      <li className={className} onClick={onClick}>
-        {label}
+      <li className={className}  onClick={onClick}>
+        <span className={label.tabClass}>{label.text}</span>
       </li>
     );
   }

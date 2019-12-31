@@ -8,6 +8,43 @@
   list-style: none;
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.highlights:before {
+  content:url('../../images/resumeIcons/highlights.png'); 
+  position:relative; 
+  z-index:100000; /*a number that's more than the modal box*/
+  padding: 5px;
+}
+
+.work-history:before {
+  content:url('../../images/resumeIcons/workHistory.png'); 
+  position:relative; 
+  z-index:100000; /*a number that's more than the modal box*/
+  padding: 5px;
+}
+
+.projects:before {
+  content:url('../../images/resumeIcons/projects.png'); 
+  position:relative; 
+  z-index:100000; /*a number that's more than the modal box*/
+  padding: 5px;
+}
+
+.online:before {
+  content:url('../../images/resumeIcons/contact.png'); 
+  position:relative; 
+  z-index:100000; /*a number that's more than the modal box*/
+  padding: 5px;
+}
+
+.education:before {
+  content:url('../../images/resumeIcons/education.png'); 
+  position:relative; 
+  z-index:100000; /*a number that's more than the modal box*/
+  padding: 5px;
 }
 
 .tab-list-active {
