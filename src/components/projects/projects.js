@@ -10,8 +10,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h3>Projects</h3>
-        <ul>
+        <ul class="projects-list">
           <li><a href="#cactus-log">Cactus Log</a></li>
           <li><a href="#personal-site">Personal Website</a></li>
           <li><a href="#ravemau5">RaveMau5</a></li>
@@ -52,10 +51,10 @@ export default class Projects extends React.Component {
           <hr />
 
           <article id="personal-site">
-            <h3>Personal Site</h3>
             <div>
               <img className="project-image" src={personalSite} alt="screenshot of personal site" />
               <div className="summary">
+                <h3>Personal Site</h3>
                 <div >This is my main website - from there you can acess all my dev and art projects</div>
                 <div><a
                   href="http://www.macpeters.com"
@@ -69,18 +68,19 @@ export default class Projects extends React.Component {
               </div>
               <div className="future-plans">
                 <h4>Future Plans</h4>
-                The site's been getting slower as I add content, so I'd like to break more stuff out into separate apps.
+                The site's been getting slower as I add content, so I'd like to break more stuff out into separate mini-apps,
+                which I can then expand on.  This site can link to all of those.
               </div>
             </div>
           </article>
 
           <hr />
 
-          <article id="ravemau5">
-            <h3>RaveMau5</h3>
+          <article id="ravemau5"> 
             <div>
               <img className="project-image" src={raveMau5} alt="screenshot of RaveMau5" />
               <div className="summary">
+                <h3>RaveMau5</h3>
                 <div>A platformer game built in GMS</div>
                 <div><a
                   href="https://ravemau5.netlify.com/"
@@ -104,11 +104,11 @@ export default class Projects extends React.Component {
 
           <hr />
 
-          <article id="cell-sim">
-            <h3>Cell Sim</h3>
+          <article id="cell-sim">     
             <div>
               <img className="project-image" src={cellSim} alt="screenshot of Cell Sim" />
               <div className="summary">
+                <h3>Cell Sim</h3>
                 <div>A Simulation Game built in GMS</div>
                 <div><a
                   href="https://macpeters.itch.io/cell-sim"
@@ -130,11 +130,11 @@ export default class Projects extends React.Component {
 
           <hr />
 
-          <article id="key-to-keys">
-            <h3>Key To Keys</h3>
+          <article id="key-to-keys">    
             <div>
               <img className="project-image" src={keyToKeys} alt="screenshot of Key To Keys" />
               <div className="summary">
+                <h3>Key To Keys</h3>
                 <div>An Educational game for learning key signatures built in GMS over a weekend at ToJam</div>
                 <div><a
                   href="https://macpeters.itch.io/the-key-to-keys"
@@ -159,10 +159,10 @@ export default class Projects extends React.Component {
           <hr />
 
           <article id="skate-invasion">
-            <h3>Skate Invasion</h3>
             <div>
               {/* <img src="" className="project-image"  alt="screenshot of Skate Invasion" /> */}
               <div className="summary">
+                <h3>Skate Invasion</h3>
                 <div>A Game built in GMS to use Pathfinding</div>
                 <div></div>
               </div>

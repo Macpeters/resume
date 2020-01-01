@@ -1,11 +1,15 @@
 .social-button {
   display: inline-block;
-  width: 40%;
+  width: 300px;
   padding: 10px;
   border-color: black;
   border-width: thin;
   border-style: double;
   margin: 10px;
+}
+
+.social-button:hover {
+  background-color: rgb(241, 241, 241);
 }
 
 .social-image {
@@ -21,8 +25,9 @@ a {
   text-decoration: none;
 }
 
-li {
+.social-li {
   list-style: none;
+  display: inline-block
 }
 
 .link-title {

@@ -12,6 +12,11 @@
   font-weight: bold;
 }
 
+.tab-list-item:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
 .highlights:before {
   content:url('../../images/resumeIcons/highlights.png'); 
   position:relative; 
