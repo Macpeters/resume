@@ -34,6 +34,7 @@ export default class Education extends React.Component {
               <li>Participated in Month-long Windows 7 Game Challenge</li>
               <li>Attended Level Up to present a game: Jump Dude</li>
               <li>Worked as Student Ambassador during the Game On Science expo at the Ontario Science Center</li>
+              <li>Took part in TOJam 7, 8, and 10</li>
             </ul>
           </div>
         </div>
