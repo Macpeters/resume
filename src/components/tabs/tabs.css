@@ -13,8 +13,8 @@
 }
 
 .tab-list-item:hover {
-  opacity: 70%;
   cursor: pointer;
+  background-color: rgb(241, 241, 241);
 }
 
 .highlights:before {
