@@ -69,8 +69,7 @@ export default class Projects extends React.Component {
               </div>
               <div className="future-plans">
                 <h4>Future Plans</h4>
-                I would like to build search features in so I can see how many species share features such as
-                where they originated from, or whether they produce edible fruit.
+                The site's been getting slower as I add content, so I'd like to break more stuff out into separate apps.
               </div>
             </div>
           </article>
