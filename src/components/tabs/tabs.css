@@ -17,6 +17,13 @@
   background-color: rgb(241, 241, 241);
 }
 
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+/* Tab Icons */
 .highlights:before {
   content:url('../../images/resumeIcons/highlights.png'); 
   position:relative; 
@@ -50,10 +57,4 @@
   position:relative; 
   z-index:100000; /*a number that's more than the modal box*/
   padding: 5px;
-}
-
-.tab-list-active {
-  background-color: white;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
 }
