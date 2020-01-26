@@ -1,21 +1,21 @@
 .header {
-  /* text-align: center; */
   background-image: linear-gradient(to bottom right, aqua , blueviolet, hotpink, orange, yellow);
   color: #fff;
   text-shadow: #000 2px 2px 4px;
   -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .header-text{
   flex-basis: auto;
-  /* flex-shrink: 0; */
 }
 
 
 .header-logo img {
+  max-height: 100px;
+  padding: 10px;
   display: flex;
 }

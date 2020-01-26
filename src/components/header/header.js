@@ -13,10 +13,6 @@ export default class Header extends React.Component {
           <h1>Maryanne (Mac) Peters</h1>
           <h2>www.macpeters.com</h2>
         </div>
-        <div class="header-description">
-          <h3>Web Development</h3>
-          <h3>Games</h3>
-        </div>
       </div>
     )
   }
