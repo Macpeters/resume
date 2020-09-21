@@ -10,9 +10,19 @@ export default class WorkHistory extends React.Component {
           <span className="organization">Info-tech Research Group</span>
           <span className="time-period">October 2015 - Present</span>
           <ul className="responsibilities">
+            <li>Ruby on Rails development, with some VueJS front-end, and a Node app</li>
             <li>Maintained legacy systems: added features, fixed bugs, upgraded gems/packages</li>
             <li>Built new projects and components to interact with existing systems.</li>
-            <li>Created custom surveys to collect client data, maintaining data integrity, and produced web and PDF reports to visualize the data using Highcharts.</li>
+            <li>Data collection, storage, and visualization:
+              <ul>
+                <li>Created custom surveys to collect client data</li>
+                <li>Maintained data integrity</li>
+                <li>Transformed the data to tell a cohesive and actionable story</li>
+                <li>Produced web and PDF reports to visualize the data using Highcharts</li>
+              </ul>
+            </li>
+            <li>Troubleshot system issues, documented and implemented solutions</li>
+            <li>Monitored and logged system usage</li>
             <li>Worked agile in a quickly changing environment, pivoting when required.</li>
             <li>Mentored new and junior employees</li>
           </ul>
