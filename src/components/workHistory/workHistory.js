@@ -7,8 +7,18 @@ export default class WorkHistory extends React.Component {
         <h3>Work History</h3>
         <article>
           <span className="job-title">Full Stack Developer </span>
+          <span className="organization">Himama</span>
+          <span className="time-period">Feb 2021 - Present</span>
+          <ul className="responsibilities">
+            <li>Development using Ruby on Rails and ReactJS/GraphQL</li>
+            <li>Built new features, fixed bugs, kept vendor integrations up to date</li>
+          </ul>
+        </article>
+
+        <article>
+          <span className="job-title">Full Stack Developer </span>
           <span className="organization">Info-tech Research Group</span>
-          <span className="time-period">October 2015 - Present</span>
+          <span className="time-period">October 2015 - January 2021</span>
           <ul className="responsibilities">
             <li>Ruby on Rails development, with some VueJS front-end, and a Node app</li>
             <li>Maintained legacy systems: added features, fixed bugs, upgraded gems/packages</li>
